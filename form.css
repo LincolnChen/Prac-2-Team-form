@@ -1,0 +1,74 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url(book.jpg);
+  background-size: cover;
+  box-sizing: border-box;
+
+}
+
+label{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 200px;
+    text-align: right;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+input{
+  float: left;
+  margin-top: 10px;
+  border-radius: 10px;
+  width: 200px;
+  height: 25px;
+}
+
+input:hover {
+  background-color: #c9ccc9;
+}
+
+h1{
+  color: black;
+  font-size: 40px;
+  text-align: center;
+  font-family: sans-serif;
+  background: #FAFAFA;
+  border-radius: 10px;
+  padding: none;
+}
+
+.teamform{
+  width: 100%;
+  max-width: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: fixed;
+  padding: 20px 20px;
+  background: #f2f2f2;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.already{
+  margin-top: 280px;
+  text-align: center;
+  background: #FAFAFA;
+}
+
+.registerbtn{
+  border-radius: 20px;
+  width: 80px;
+
+}
+footer{
+  position: fixed;
+  margin-top: 670px;
+  text-align: center;
+  margin-left: 10px;
+  background:#FAFAFA;;
+  border-radius: 10px;
+}
